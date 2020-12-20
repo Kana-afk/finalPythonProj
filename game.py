@@ -13,7 +13,7 @@ for the remaining letters, for example with lines
 (there is also an option when initially all the letters of
 the word are unknown). A gallows with a noose is also drawn.'''
 
-firstData = FirstPage(faq, 'Askat', 'Dzhambulov', 'COM-17')
+firstData = FirstPage(faq, 'Kantemir', 'Zh.', 'COM-20')
 
 canvas.create_text(310, 240, text=FirstPage.about(firstData), fill="purple", font=("Helvetica", "14"))
 canvas.create_text(450, 500, text=('by'+ ' ' + FirstPage.author(firstData)), fill="red", font=("Helvetica", "14"))
